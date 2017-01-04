@@ -1,0 +1,19 @@
+Package: Squash
+Title: Squash match simulator
+Version: 0.0.1
+Authors@R: c(
+    person("Roman", "Pahl",
+    email = "roman.pahl@gmail.com", role = c("aut", "cre")))
+Description: A shiny application to simulate and visualize Squash matches.
+Depends:
+    R (>= 3.3.2)
+License: GPL (>= 2)
+NeedsCompilation: no
+LazyData: true
+Imports:
+    shiny (>= 0.14.2),
+    shinyjs (>= 0.8),
+Suggests:
+    shinythemes (>= 1.0.1),
+    testthat
+RoxygenNote: 5.0.1

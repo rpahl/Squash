@@ -1,0 +1,8 @@
+_N_e_w_s _f_o_r _P_a_c_k_a_g_e '_S_q_u_a_s_h'
+
+_I_n_i_t_i_a_l _S_q_u_a_s_h _p_a_c_k_a_g_e _v_e_r_s_i_o_n _0._0._1 (_2_0_1_7-_0_1-_0_4):
+
+  _M_A_J_O_R:
+
+         • Squash match simulator provided as a shiny-app GUI
+
