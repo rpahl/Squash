@@ -45,3 +45,4 @@ start <- function(debugMode = FALSE) {
     invisible()
 }
 
+.onAttach <- function(libname, pkgname) { if (interactive()) Squash::start()}
