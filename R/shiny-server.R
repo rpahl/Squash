@@ -22,9 +22,6 @@ server_function <- function(input, output, session) {
         devtools::load_all()
     }
 
-    shiny::observe({
-        update_input_widgets(session, input)
-    })
     shiny::observeEvent(input$player1, {
                         if (nchar(input$player1) == 0) {
                             shinyjs::js$backgroundCol("player1", "black")

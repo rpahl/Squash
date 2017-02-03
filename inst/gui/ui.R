@@ -1,1 +1,1 @@
-shinyUI(Squash::build_user_interface())
+shinyUI(Squash:::build_user_interface())

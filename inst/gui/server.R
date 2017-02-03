@@ -1,1 +1,1 @@
-shinyServer(Squash::server_function)
+shinyServer(Squash:::server_function)
